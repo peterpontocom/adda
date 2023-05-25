@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+  --azul: #0D264F;
+  --verde: #556B2F;
+  --cinza: #808080;
+  --vermelho: #FF4848;
+  --laranja: #FFA500;
+  --amarelo: #FFFF00;
+  --branco: ##FFFFFF
+}
+
+body {
+  font-size: 1.6rem;
+}
