@@ -54,6 +54,7 @@ body {
   line-height: 120%;
   letter-spacing: -0.75px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -74,7 +75,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 5rem;
+  padding: 2rem 5rem;
   border-bottom: 0.2rem solid var(--cinza);
   width: 100%;
   background-color: #fff;
@@ -106,7 +107,7 @@ header .profile {
   border-radius: 99999px;
 }
 
-header menu .active {
+header menu .active, .profile .active {
   color: var(--azul-sky);
 }
 

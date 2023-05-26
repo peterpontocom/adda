@@ -8,7 +8,6 @@
     var prox = document.getElementById('formularios')
     prox.style.transform = 'translateX(-160%)'
     var titulo = document.getElementById('criar')
-    titulo.innerHTML =' <h2 id="criar">Adicionar foto</h2>'
     }
 
     let fileImg = document.querySelector('.selecImg')

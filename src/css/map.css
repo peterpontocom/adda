@@ -1,7 +1,11 @@
+body {
+  overflow: hidden;
+}
+
 .container {
-  margin-top: 7rem;
+  margin-top: 6rem;
   width: 100%;
-  height: 85vh;
+  height: 100vh;
 }
 
 .container iframe {

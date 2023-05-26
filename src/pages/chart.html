@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/main.css" />
-    <link rel="stylesheet" href="../css/map.css" />
+    <link rel="stylesheet" href="../css/chart.css" />
     <title>Adda</title>
   </head>
   <body>
@@ -47,7 +47,7 @@
           </a>
         </li>
         <li>
-          <a href="#" class="active">
+          <a href="map">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -83,7 +83,7 @@
           </a>
         </li>
         <li>
-          <a href="chart.html">
+          <a href="#" class="active">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -102,7 +102,7 @@
       </ul>
     </nav>
     <header>
-      <a href="map.html" class="logo">ADDA</a>
+      <a href="main.html" class="logo">ADDA</a>
       <menu>
         <nav>
           <ul>
@@ -112,7 +112,7 @@
                 >Alertas <span class="notification">5</span></a
               >
             </li>
-            <li><a href="#" class="active">Mapas</a></li>
+            <li><a href="map.html">Mapas</a></li>
             <li class="setting-links">
               <button href="#" class="setting-button" style="cursor: pointer">
                 Definições
@@ -122,26 +122,79 @@
                 <li><a href="#">Privacidade e segurança</a></li>
                 <li><a href="#">Termos e condições</a></li>
                 <li><a href="#">Tema</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="#">Sobre</a></li>
               </ul>
             </li>
           </ul>
         </nav>
       </menu>
       <div class="profile">
-        <a href="chart.html">Estatística</a>
+        <a href="chart.html" class="active">Estatística</a>
       </div>
     </header>
     <div class="container">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107296.10676761968!2d13.135436917160943!3d32.818676568253146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13a892c4c11c43d9%3A0x8d99d8947b5cec86!2zVHLDrXBvbGksIEzDrWJpYQ!5e0!3m2!1spt-PT!2sao!4v1685004887039!5m2!1spt-PT!2sao"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+      <ul>
+        <li>
+          Tripoli-Center
+          <span class="ponto" style="background-color: red"></span>
+        </li>
+        <li>
+          Abu Slim Souk
+          <span class="ponto" style="background-color: blue"></span>
+        </li>
+        <li>
+          al-Jumaa
+          <span class="ponto" style="background-color: chartreuse"></span>
+        </li>
+        <li>
+          Aïn Zara Hay
+          <span class="ponto" style="background-color: brown"></span>
+        </li>
+        <li>
+          al-Andalous Tajoura
+          <span class="ponto" style="background-color: darkolivegreen"></span>
+        </li>
+        <li>
+          Zaouia-Ouest
+          <span class="ponto" style="background-color: darkblue"></span>
+        </li>
+        <li>
+          Sabratha <span class="ponto" style="background-color: darkred"></span>
+        </li>
+        <li>
+          al-Garabouli
+          <span class="ponto" style="background-color: blueviolet"></span>
+        </li>
+        <li>
+          Gasr al-akhyar
+          <span class="ponto" style="background-color: coral"></span>
+        </li>
+        <li>
+          al-Rajban
+          <span class="ponto" style="background-color: darkgray"></span>
+        </li>
+      </ul>
+      <div class="chart">
+        <div class="bar" style="height: 40%; background-color: red"></div>
+        <div class="bar" style="height: 20%; background-color: blue"></div>
+        <div
+          class="bar"
+          style="height: 70%; background-color: chartreuse"
+        ></div>
+        <div class="bar" style="height: 30%; background-color: brown"></div>
+        <div
+          class="bar"
+          style="height: 10%; background-color: darkolivegreen"
+        ></div>
+        <div class="bar" style="height: 5%; background-color: darkblue"></div>
+        <div class="bar" style="height: 15%; background-color: darkred"></div>
+        <div
+          class="bar"
+          style="height: 95%; background-color: blueviolet"
+        ></div>
+        <div class="bar" style="height: 75%; background-color: coral"></div>
+        <div class="bar" style="height: 98%; background-color: darkgray"></div>
+      </div>
     </div>
     <script src="../js/main.js"></script>
   </body>
