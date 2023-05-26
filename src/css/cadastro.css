@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "logo";
+    src: url("../fonts/DancingScript-VariableFont_wght.ttf");
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Poppins";
+    outline: none;
+    font-size: 16px;
+  }
+
+  body{
+  overflow: hidden;
+  }
+  
+  :root {
+    font-size: 62.5%;
+    --blue-2: #0486ff;
+    --azul: #0D264F;
+    --verde: #556B2F;
+    --cinza: #808080;
+    --vermelho: #FF4848;
+    --laranja: #FFA500;
+    --amarelo: #FFFF00;
+    --branco: #FFFFFF;
+  }
+
+  #criar{
+    text-align: center; 
+    font-size: 25px;
+    margin-top: 8%
+  }
+  
+  .logo{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+   height: 5rem;
+  }
+  
+  .log{
+  font-size: 4rem;
+  font-family: logo;
+  }
+
+  #formularios{
+display: flex;
+justify-content: space-between;
+left: 22%;
+position: relative;
+transition: all 1s;
+}
+
+  form{
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+}
+
+input{
+width: 700px;
+padding: 8px;
+margin: 10px;
+}
+
+#btn-prox{
+background-color: var(--blue-2);
+border: none;
+border-radius: 5px;
+width: 180px;
+height: 40px;
+color: var(--branco);
+position: absolute;
+top: 100%;
+left: 41%;
+}
+
+#btn-prox-2{
+  background-color: var(--blue-2);
+  border: none;
+  border-radius: 5px;
+  width: 180px;
+  height: 40px;
+  color: var(--branco);
+  position: absolute;
+  top: 100%;
+  left: 121%;
+}
+
+#btn-ant{
+    background-color: var(--azul);
+    border: none;
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+    margin-top: 6px;
+    color: var(--branco);
+    position: absolute;
+    top: 95%;
+    left: 83%;
+    }
+
+    #btn-ignorar{
+      background-color: var(--blue-2);
+      border: none;
+      border-radius: 5px;
+      width: 180px;
+      height: 40px;
+      color: var(--branco);
+     position: relative;
+     top: 130px;
+     left: 65%;
+    }
+
+    button:hover{
+    cursor: pointer;
+    }
+ 
+    @media (max-width: 412px){
+      #criar{margin: 35% 0px 20px 0px;}
+      #formularios{left: 0%;}
+      #btn-prox{left: 31%; margin-top: 20px; border-radius: 15px;}
+      
+      #form-2{position: relative; right: 250px;}
+      input{width: 33rem;}
+      .globo{margin-right: 1rem; width: 20px; height: 20px;}
+}

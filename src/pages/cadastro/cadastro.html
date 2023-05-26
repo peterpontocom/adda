@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-AO">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro-ADDA</title>
+    <link rel="stylesheet" href="../../css/cadastro.css">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+</head>
+<body>
+    <div class="logo">
+        <h2 class="log">ADDA</h2>
+        <img src="../../images/icon/globo.png" alt="" class="globo">
+      </div>
+
+      <h2 id="criar">Criar Conta</h2>
+
+      <div id="formularios">
+      <form action="" style="margin-left: 40px;" id="form-1">
+        <label for="email">Email</label>
+            <input type="email" name="emai" id="input" placeholder="Ex: marlene@gmail.com">
+        <label for="nome">Nome</label>
+             <input type="text" name="" id="input" placeholder="Ex: Marlene">
+        <label for="sobrenone">Sobrenome</label>
+        <input type="text" name="" id="sobrenone" placeholder="Ex: Delfino">
+      </form>
+      <button id="btn-prox" onclick="prox()">Próximo</button>
+     
+      <form action="" style="margin-left: 360px;" id="form-2">
+        <label for="senha">Senha</label>
+        <input type="password" name="" id="input" placeholder="********">
+        <label for="conf-senha">Confirmação da Senha</label>
+        <input type="password" id="input" placeholder="********">
+      </form>
+      
+        <button id="btn-prox-2" onclick="prox2()" >Próximo</button>
+        <button id="btn-ant" onclick="ant()">Anterior</button>
+
+      <div style=" position: relative; left: 47%;">
+        <label for="selecImg"><img src="../../images/img/camera.png" class="img" alt="" style="width: 180px; height: 170px; position: relative; top: 60px; cursor: pointer;"></label>
+        <input type="file" name="" id="selecImg" class="selecImg" oninput="imgSell()" style="opacity: 0;">
+        <button id="btn-ignorar">Ignorar</button>
+      </div>
+    </div>
+    <script src="../../js/cadastro.js"></script>
+</body>
+</html>
